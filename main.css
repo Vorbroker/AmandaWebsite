@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+<style type="text/css">
+
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font: inherit;
+  font-size: 100%;
+}
+
+body {
+	background: #000;
+	padding: 0;
+	margin: 0;
+}
+.header {
+	margin: 0 0 0 0;
+	padding: 20px 0 0 0;
+	color: #FFF;
+	border: 1px solid black;
+	background-image: url(images/america.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size:cover; 
+	height: 410px;
+	width: 100%;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+}
+
+
+.favorites ul li {
+	display: block;
+	list-style-type: none;
+	float: left;
+	margin: 0 20px 0 0;
+	padding: 0;	
+	height: 255;
+}
+.favorites ul {
+	margin: 75px auto 0 auto;
+	padding: 0;
+	height: 225px;
+	width: 660px;
+}
+.nav ul li {
+	display:inline;
+	list-style-type:none;
+	color: #FFF;
+}
+.nav {
+	margin: 0 0 0 0;
+	padding: 40px 0 0 0;
+	text-align: center;
+	
+}
+:visited {
+	outline-color: #FFF;
+	color:#FFF;
+}
+:link {
+	outline-color: #FFF;
+	color:#FFF;
+}
